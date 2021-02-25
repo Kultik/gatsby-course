@@ -22,7 +22,7 @@ import {ExampleButton} from '../components/button'
 export default () => (
   <Layout>
     <h1 style={{color:"red", textTransform:"uppercase"}}>Hello from Gatsby</h1>
-    <a href="https://www.gatsbyjs.org" target="_blank">Gatsby official documentation</a>
+    <a href="https://www.gatsbyjs.org" target="_blank" rel="noreferrer">Gatsby official documentation</a>
     <br></br>
     <ExampleButton>Click me</ExampleButton>
   </Layout>
