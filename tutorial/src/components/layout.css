@@ -5,12 +5,16 @@ body {
 }
 
 h1 {
-  color: blue;
+  color: orange;
   text-transform: capitalize;
 }
 
 h2 {
   text-transform: capitalize;
+}
+h4 {
+  text-transform: capitalize;
+  /* does not seem to affect description query, why ? */
 }
 
 p {

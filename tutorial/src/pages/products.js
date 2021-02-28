@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 // Importing STYLES 
 import styles from '../components/products.module.css'
 // Console log to show that styles is a JS object
-console.log(styles)
+// console.log(styles)
 
 export default class products extends Component {
     render() {

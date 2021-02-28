@@ -28,7 +28,7 @@ export default () => (
   </Layout>
 )
 
-// **** OFFICIAL STARTER PAGE (slightly different than what was shown in tuto so tryout below) ****
+// **** OFFICIAL STARTER PAGE (slightly different than what was shown in tuto so tryout above) ****
 // export default function Home() {
 //   return <div>Hello Peeps!
 //     <div>
