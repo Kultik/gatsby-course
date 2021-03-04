@@ -3,6 +3,7 @@ import Header from '../examples/Header'
 import Layout from '../components/layout'
 import HeaderStatic from '../examples/HeaderStatic'
 
+
 // Importing PageQuery
 // once we have imported the graph ql tagged template ({graphql}) we need to set up the query : once we set up the query it will make our data object available in the props of the component (const examples = (PROPS)). 
 // To add the data proporty we need to set up graphql : in this case : we need to export a variable (export const data)

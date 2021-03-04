@@ -1,6 +1,7 @@
 import React from 'react'
 
 // setting up ourself USESTATICQUERY
+// Can only be used in Functional Components (RAFCE)
 // once the query is setup (copy-pased from graphql), we need to invoke our useStaticQuery from the import.
 import {useStaticQuery, graphql} from 'gatsby'
 const getData = graphql`
