@@ -24,6 +24,9 @@ const Navbar = () => {
                 <li>
 <Link to="/examples/">Examples</Link>
                 </li>
+                <li style={{listStyleType:"none"}}>
+<Link to="/images/">Images</Link>
+                </li>
             </ul>
         </nav>
     )
