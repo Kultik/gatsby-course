@@ -1,11 +1,49 @@
-.page {
-  background: yellow;
+.box {
+  width: 90vw;
+  max-width: 1170px;
+  text-transform: capitalize;
+  margin: 0 auto;
 }
 
-.page h1 {
+.box h1 {
   color: red;
 }
 
-.text {
+/*
+h1 { => Taking out "box" in front of <h1> tag
+  this will affect even the footer, meaning it takes over previous css defined in Layout.
+}
+*/
+
+.box {
   text-transform: uppercase;
+}
+
+.box span {
+  margin-left: 2rem;
+  color: grey;
+}
+
+.box article {
+  margin: 2rem 0;
+  /* 2rem : up and down - 0 : left and right
+  */
+}
+
+.box div {
+  height: 15rem;
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .box {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
